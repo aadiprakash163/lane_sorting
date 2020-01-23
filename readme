@@ -1,0 +1,13 @@
+We used Dell Optiplex 9020 machine with intel i7 processor, 16 GB RAM and Ubuntu 16.04 operating system.
+
+
+To run the simulation:
+1) Make sure SUMO is installed on your computer. Installation procedure for different Operating Systems is provided at http://sumo.sourceforge.net/userdoc/Downloads.html
+1) Set the path to sumo folder as environment variable:
+	for example in linux, 
+    export SUMO_HOME=/usr/share/sumo
+
+2) run the python script 'run.py' using the following command
+	python3 run.py
+
+3) In the sumo gui window that opens, set the delay to maximum (1000) and wait for the output on the terminal.
